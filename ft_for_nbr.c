@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_for_nbr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jbellucc <jbellucc@student.42roma.it>      +#+  +:+       +#+        */
+/*   By: jbellucc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/12/28 16:46:21 by jbellucc          #+#    #+#             */
-/*   Updated: 2025/01/02 14:16:35 by je               ###   ########.fr       */
+/*   Created: 2025/01/02 14:45:07 by jbellucc          #+#    #+#             */
+/*   Updated: 2025/01/02 14:53:27 by jbellucc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,10 +21,11 @@ int	ft_strlen(char *str)
 		p ++;
 	return (p);
 }
+
 void	ft_putnbr_base2(unsigned long long n, char *base, int *count)
 {
 	unsigned long long	len;
-	char	c;
+	char				c;
 
 	len = (unsigned long long)ft_strlen(base);
 	if (len < 2)
