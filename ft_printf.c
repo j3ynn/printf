@@ -6,7 +6,7 @@
 /*   By: jbellucc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/02 14:42:12 by jbellucc          #+#    #+#             */
-/*   Updated: 2025/01/02 14:43:24 by jbellucc         ###   ########.fr       */
+/*   Updated: 2025/01/02 15:00:17 by jbellucc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,7 +51,7 @@ int	ft_printf(const char *s, ...)
 	int		count;
 
 	count = 0;
-	va_start(args, *s);
+	va_start(args, s);
 	while (*s)
 	{
 		if (*s == '%')
